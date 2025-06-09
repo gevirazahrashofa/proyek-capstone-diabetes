@@ -11,13 +11,13 @@ Sistem ini menggunakan neural network untuk memprediksi risiko penyakit diabetes
 | Kategori              | DataFitur            | Deskripsi                              | Tipe Data | Cara Input / Keterangan                                         |
 |-----------------------|----------------------|-----------------------------------------|-----------|------------------------------------------------------------------|
 | Mudah Diketahui       | gender               | Jenis kelamin                           | String    | Pilihan: Female, Male, Other                                     |
-|                       | age                  | Usia dalam tahun                        | Integer   | Input langsung                                                   |
+|                       | age                  | Usia dalam tahun                        | Integer   | Input langsung. Contoh: 20                                       |
 |                       | smoking_history      | Riwayat merokok                         | String    | Pilihan: never, No Info, current, former, ever, not current      |
 | Kondisi Kesehatan     | hypertension         | Riwayat hipertensi                      | Integer   | Input: Ya/Tidak (0: Tidak, 1: Ya)                                |
 |                       | heart_disease        | Riwayat penyakit jantung                | Integer   | Input: Ya/Tidak (0: Tidak, 1: Ya)                                |
-| Pengukuran Fisik      | bmi                  | Body Mass Index (kg/m²)                 | Float     | Bisa dihitung dari tinggi dan berat badan                       |
-|                       | HbA1c_level          | Kadar HbA1c (%)                         | Float     | Perlu tes darah HbA1c                                            |
-|                       | blood_glucose_level  | Kadar glukosa darah (mg/dL)             | Integer   | Perlu tes gula darah                                             |
+| Pengukuran Fisik      | bmi                  | Body Mass Index (kg/m²)                 | Float     | Bisa dihitung dari tinggi dan berat badan. Contoh: 28.5          |
+|                       | HbA1c_level          | Kadar HbA1c (%)                         | Float     | Perlu tes darah HbA1c. Contoh:  6.2                              |
+|                       | blood_glucose_level  | Kadar glukosa darah (mg/dL)             | Integer   | Perlu tes gula darah. Contoh: 145                                             |
 | Target Variable       | diabetes             | Status diabetes                         | Integer   | 0: Tidak Diabetes, 1: Diabetes                                   |
 
 ## Output Prediksi
